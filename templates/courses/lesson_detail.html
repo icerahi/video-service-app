@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson{{object}}</title>
+</head>
+<body>
+<h1>Lesson Detail View</h1>
+{% if object is not None %}
+{{ object.title }} <br>
+
+{% else %}
+Please Upgrade Your membership!!
+{% endif %}
+
+</body>
+</html>
